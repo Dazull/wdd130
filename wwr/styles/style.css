@@ -1,34 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
 #background {
     height: 725px;
-    background-color: black;
+    background-color: rgba(20,30,13, .7);
 }
+.home-title {
+    font-family: 'Montserrat', Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
+    color: #000000;
+  }
 #hero-img {
     width: 100%;
 }
-.home-title {
-    color: #fcfbfb;
+#logo_link {
+    padding-top: 5px;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 h4 {
-    color: #fcfbfb;
+    color: #000000;
 }
 .msg {
-    background-color: black;
+    background-color: rgba(20,30,13, .7);
+    font-family: 'Montserrat', Times, serif;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #fcfbfb;
+    font-family: "Montserrat", Times, serif;
 }
 .msg p {
-    color:#fcfbfb
+    color:#fcfbfb;
+    padding-bottom: 15px;
 }
 footer {
-    background-color:  black;
+    background-color:  rgba(20,30,13, .7);
     color: #fcfbfb;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer a {
     color: #fcfbfb;
@@ -44,31 +63,39 @@ footer p a:hover {
     text-decoration: underline;
 }
 body {
-    background-color: #fcfbfb; 
+    background-color: #fcfbfb;
+    font-family: 'Montserrat', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0; 
+}
+h2  {
+    margin: 0;
+    color: black;
 }
 header {
     background-color:rgba(20,30,13, .7);
 }
 nav a:hover {
-    background-color: black;
+    background-color: rgba(20,30,13, .7);
     color: #fcfbfb;
 }
-.book {
+.book, .join {
     background-color: black;
     color: #fcfbfb;
     text-decoration: none;
-}
-.join {
-    background-color: black;
-    color: #fcfbfb;
-    text-decoration: none;
+    font-family: 'Montserrat', Times, serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
-    background-color: black;
+    background-color:rgba(20,30,13, .7);
     color: #fcfbfb;
 }
 .join:hover {
-    background-color: black;
+    background-color: rgba(20,30,13, .7);
     color: #fcfbfb;
 }
 div {
@@ -79,6 +106,7 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -91,4 +119,13 @@ nav a {
 }
 main section {
     text-align: center;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid rgba(20,30,13, .7);
+}
+main section img {
+    box-sizing: border-box;
 }
